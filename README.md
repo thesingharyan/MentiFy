@@ -24,3 +24,4 @@ MentiFy is an AI-assisted mental health platform designed for continuous emotion
 
 ## 👨‍💻 Author
 Aryan Singh
+Anisha Rawat
