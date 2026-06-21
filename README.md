@@ -1,70 +1,102 @@
-🧠 MentiFy - thementalGUARDIAN
+# 🧠 MentiFy - the mentalGUARDIAN
 
-Mentify is an intelligent mental wellness web application that uses a fine-tuned DistilBERT model along with Google Gemini LLM to analyze user emotions and provide personalized mental health insights.
+MentiFy is an AI-powered mental wellness web application that analyzes user responses using a **fine-tuned DistilBERT** model and generates personalized mental health insights with **Google Gemini LLM**. Through guided questions and a short behavioral assessment, the system provides users with an AI-assisted mental wellness report.
 
-It collects user responses through guided questions and a short MCQ-based test, predicts mental health conditions using AI, and generates deeper suggestions using LLM-based reasoning.
+---
 
+## 🚀 System Flow
 
-🚀 System Flow
-User answers 5 guided mental wellness questions
-Each response is analyzed using a fine-tuned DistilBERT model
-The model generates predictions for each input
-All responses along with predictions are sent to Google Gemini LLM
-Gemini LLM generates a detailed mental wellness report including:
-Summary
-Possible causes
-Recommendations
-Daily habits
-Risk level assessment
-User also completes a 10-question MCQ test for additional behavioral insight
+1. User answers **5 guided mental wellness questions**.
+2. Each response is analyzed using a **fine-tuned DistilBERT** model.
+3. The model predicts one of **7 mental health categories** for each response.
+4. All responses and predictions are sent to **Google Gemini LLM**.
+5. Gemini generates a personalized report including:
 
+   * Mental wellness summary
+   * Possible causes
+   * Personalized recommendations
+   * Healthy daily habits
+   * Risk level assessment
+6. The user also completes a **10-question MCQ-based behavioral assessment** for additional insights.
 
-⚙️ Tech Stack Used
-🔹 Frontend
-HTML
-CSS
-JavaScript
-🔹 Backend
-Flask (Python)
-REST APIs for prediction and analysis
-🔹 Machine Learning
-PyTorch
-Transformers (HuggingFace)
-NumPy
-Pandas
-Scikit-learn
-🔹 AI Services
-Google Gemini API (google-genai)
+---
 
+## ⚙️ Tech Stack
 
-🤖 AI/ML Components
-🧠 1. DistilBERT Model
-Model: DistilBertForSequenceClassification
-Fine-tuned on Kaggle dataset (55,000 rows)
-Accuracy: 87%
-Classifies text into 7 categories:
-Anxiety
-Bipolar
-Depression
-Normal
-Personality Disorder
-Stress
-Suicidal
+### 🌐 Frontend
 
-🔗 Hugging Face Model:
+* HTML
+* CSS
+* JavaScript
 
-[https://huggingface.co/<your-model-link-here>](https://huggingface.co/anisha-14/Mentify-DistilBERT)
+### ⚡ Backend
 
+* Flask
+* REST APIs
 
-🧠 2. Google Gemini LLM
-Used for generating deep psychological insights
-Takes user answers + model predictions
-Generates structured mental wellness report
+### 🤖 Machine Learning
 
+* Fine-tuned DistilBERT
+* PyTorch
+* Hugging Face Transformers
+* Scikit-learn
+* NumPy
+* Pandas
 
-👨‍💻 Contributors:
+### 🧠 AI Integration
+
+* Google Gemini API (`google-genai`)
+
+---
+
+## 🤖 AI Models
+
+### 🧠 Fine-tuned DistilBERT
+
+* **Architecture:** DistilBertForSequenceClassification
+* **Training Dataset:** Kaggle Mental Health Dataset (~55,000 samples)
+* **Accuracy:** **87%**
+* **Classification Categories:**
+
+  * Anxiety
+  * Bipolar
+  * Depression
+  * Normal
+  * Personality Disorder
+  * Stress
+  * Suicidal
+
+### 🤖 Google Gemini LLM
+
+Generates a personalized mental wellness report based on:
+
+* User responses
+* DistilBERT predictions
+* Behavioral assessment
+
+The report includes practical recommendations and wellness insights tailored to the user's responses.
+
+---
+
+## 🤗 Fine-tuned DistilBERT Model
+
+**Hugging Face Model**
+
+https://huggingface.co/anisha-14/Mentify-DistilBERT
+
+---
+
+## 📓 Google Colab Training Notebook
+
+The complete notebook used to train and fine-tune the DistilBERT model is available here:
+
+https://colab.research.google.com/drive/1ds8LwlH5gBoMOYptxi-l2LJUfT9z30Jf?usp=sharing
+
+---
+
+👨‍💻 Authors
+
 Anisha Rawat
 Aryan Singh
 
-
-⭐ If you like this project, please consider giving it a star on GitHub — it really helps and is much appreciated!
+⭐ **If you found this project helpful, consider giving this repository a Star! Your support helps us continue improving MentiFy.**
