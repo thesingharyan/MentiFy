@@ -4,6 +4,14 @@ MentiFy is an AI-powered mental wellness web application that analyzes user resp
 
 ---
 
+## 🚀 Live Demo
+
+🔗 **Live Demo:** https://anisha-14-mentify-distilbert-demo.hf.space
+
+🤗 **Hugging Face Space:** https://huggingface.co/spaces/anisha-14/Mentify-DistilBERT-Demo
+
+---
+
 ## 🚀 System Flow
 
 1. User answers **5 guided mental wellness questions**.
@@ -96,8 +104,7 @@ https://colab.research.google.com/drive/1ds8LwlH5gBoMOYptxi-l2LJUfT9z30Jf?usp=sh
 
 👨‍💻 Authors
 
-**Anisha Rawat**
-<br>
+**Anisha Rawat** <br>
 **Aryan Singh**
 
 ⭐ **If you found this project helpful, consider giving this repository a Star! Your support helps us continue improving MentiFy.**
